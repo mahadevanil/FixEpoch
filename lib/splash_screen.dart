@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:fixepoch/screens/login_page/login.dart';
+import 'package:fixepoch/theme/color_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -27,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: ColorTheme.primaryColor,
       body: Center(
         child: Container(
           constraints: const BoxConstraints.expand(),
